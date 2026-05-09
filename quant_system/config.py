@@ -17,7 +17,7 @@ class StorageConfig:
 @dataclass(frozen=True)
 class ModelConfig:
     window_size: int = 30
-    zscore_threshold: float = 1.2
+    zscore_threshold: float = 0.5
 
 
 @dataclass(frozen=True)
